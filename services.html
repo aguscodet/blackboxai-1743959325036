@@ -1,80 +1,176 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Services - CV BERLIAN ARTHA ABADI - AI-Driven Procurement Solutions for Government">
-    <title>Services - CV BERLIAN ARTHA ABADI</title>
-    <link rel="stylesheet" href="https://cdn.tailwindcss.com">
+    <title>Layanan - CV BERLIAN ARTHA ABADI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
 </head>
-<body class="bg-gray-100">
-    <header class="bg-blue-800 text-white p-4">
-        <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-2xl font-bold">CV BERLIAN ARTHA ABADI</h1>
-            <nav>
-                <ul class="flex space-x-4">
-                    <li><a href="index.html" class="hover:underline">Home</a></li>
-                    <li><a href="about.html" class="hover:underline">About</a></li>
-                    <li><a href="services.html" class="hover:underline">Services</a></li>
-                    <li><a href="projects.html" class="hover:underline">Projects</a></li>
-                    <li><a href="contact.html" class="hover:underline">Contact</a></li>
-                </ul>
-            </nav>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-blue-800 text-white shadow-lg">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-4">
+                    <i class="fas fa-gem text-2xl"></i>
+                    <span class="text-xl font-bold">CV BERLIAN ARTHA ABADI</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="hover:text-blue-200">Beranda</a>
+                    <a href="about.html" class="hover:text-blue-200">Tentang Kami</a>
+                    <a href="services.html" class="text-blue-200 font-semibold">Layanan</a>
+                    <a href="projects.html" class="hover:text-blue-200">Proyek</a>
+                    <a href="contact.html" class="hover:text-blue-200">Kontak</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="mobile-menu-button">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
         </div>
-    </header>
-    <main class="container mx-auto my-8">
-        <section>
-            <h2 class="text-3xl font-bold">Our Services</h2>
-            <p class="mt-4">We provide comprehensive AI-driven procurement solutions for government agencies.</p>
-            
-            <div class="mt-8 space-y-8">
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <div class="flex items-center">
-                        <i class="fas fa-robot text-4xl text-blue-600 mr-4"></i>
-                        <h3 class="text-2xl font-semibold">AI Procurement Platform</h3>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-700 text-white py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">Layanan Kami</h1>
+            <p class="text-xl">Solusi pengadaan barang dan jasa untuk sektor pemerintah</p>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Layanan Pengadaan</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-boxes text-4xl"></i>
                     </div>
-                    <p class="mt-4">Our AI-powered platform revolutionizes government procurement processes with:</p>
-                    <ul class="list-disc ml-5 mt-2">
-                        <li>Automated RFP generation</li>
-                        <li>Vendor scoring algorithms</li>
-                        <li>Machine learning-based decision support</li>
+                    <h3 class="text-xl font-semibold mb-3">Pengadaan Barang</h3>
+                    <p class="text-gray-600">Kami menyediakan berbagai kebutuhan barang untuk instansi pemerintah dengan kualitas terjamin dan harga kompetitif.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-tools text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Pengadaan Jasa</h3>
+                    <p class="text-gray-600">Layanan jasa profesional untuk mendukung berbagai program dan kegiatan pemerintah, termasuk konsultasi dan pelatihan.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-clipboard-check text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Konsultasi Pengadaan</h3>
+                    <p class="text-gray-600">Pendampingan dan konsultasi proses pengadaan sesuai peraturan yang berlaku, untuk memastikan kepatuhan dan efisiensi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Services -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Detail Layanan</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">Pengadaan Barang</h3>
+                    <p class="text-gray-600">Kami menyediakan berbagai jenis barang, mulai dari peralatan kantor, alat kesehatan, hingga bahan bangunan. Setiap produk yang kami tawarkan telah melalui proses seleksi ketat untuk memastikan kualitas terbaik.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">Pengadaan Jasa</h3>
+                    <p class="text-gray-600">Layanan kami mencakup pengadaan jasa konstruksi, jasa konsultasi, dan layanan lainnya yang mendukung proyek pemerintah. Kami memiliki tim ahli yang siap memberikan solusi terbaik.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">Konsultasi Pengadaan</h3>
+                    <p class="text-gray-600">Kami menawarkan layanan konsultasi untuk membantu instansi pemerintah dalam merencanakan dan melaksanakan proses pengadaan yang sesuai dengan peraturan yang berlaku.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">Pelatihan dan Workshop</h3>
+                    <p class="text-gray-600">Kami juga menyediakan pelatihan dan workshop untuk meningkatkan pemahaman dan keterampilan dalam proses pengadaan barang dan jasa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <i class="fas fa-gem text-2xl text-blue-400"></i>
+                        <span class="text-xl font-bold">CV BERLIAN ARTHA ABADI</span>
+                    </div>
+                    <p class="text-gray-400">Perusahaan pengadaan barang dan jasa profesional untuk sektor pemerintah dengan standar kualitas tinggi.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Tautan Cepat</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white">Beranda</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white">Tentang Kami</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white">Layanan</a></li>
+                        <li><a href="projects.html" class="text-gray-400 hover:text-white">Proyek</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white">Kontak</a></li>
                     </ul>
                 </div>
-
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <div class="flex items-center">
-                        <i class="fas fa-shield-alt text-4xl text-blue-600 mr-4"></i>
-                        <h3 class="text-2xl font-semibold">Compliance Management</h3>
-                    </div>
-                    <p class="mt-4">Ensure full regulatory compliance with our advanced solutions:</p>
-                    <ul class="list-disc ml-5 mt-2">
-                        <li>Real-time regulatory checks</li>
-                        <li>Automated audit trail generation</li>
-                        <li>Compliance risk assessment</li>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Kontak Kami</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            <span>Jl. Raya Perkantoran No. 123, Jakarta</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-2"></i>
+                            <span>(021) 12345678</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <span>info@berlianarthaabadi.com</span>
+                        </li>
                     </ul>
                 </div>
-
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <div class="flex items-center">
-                        <i class="fas fa-chart-line text-4xl text-blue-600 mr-4"></i>
-                        <h3 class="text-2xl font-semibold">Data Analytics</h3>
-                    </div>
-                    <p class="mt-4">Gain valuable insights into your procurement operations:</p>
-                    <ul class="list-disc ml-5 mt-2">
-                        <li>Spend analysis dashboards</li>
-                        <li>Predictive forecasting</li>
-                        <li>Vendor performance metrics</li>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Jam Operasional</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex justify-between">
+                            <span>Senin - Jumat</span>
+                            <span>08:00 - 17:00</span>
+                        </li>
+                        <li class="flex justify-between">
+                            <span>Sabtu</span>
+                            <span>08:00 - 14:00</span>
+                        </li>
+                        <li class="flex justify-between">
+                            <span>Minggu</span>
+                            <span>Tutup</span>
+                        </li>
                     </ul>
                 </div>
             </div>
-        </section>
-    </main>
-    <footer class="bg-blue-800 text-white p-4">
-        <div class="container mx-auto text-center">
-            <p>© 2024 CV Berlian Artha Abadi</p>
-            <p>Jl. Budi Utama No.78, Jakarta | +62 21 1234567 | contact@berlian-arthabadi.com</p>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 CV BERLIAN ARTHA ABADI. All rights reserved.</p>
+            </div>
         </div>
     </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.querySelector('.mobile-menu-button');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
 </body>
 </html>
