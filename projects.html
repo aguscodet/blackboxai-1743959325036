@@ -1,103 +1,231 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Projects - CV BERLIAN ARTHA ABADI - AI-Driven Procurement Solutions for Government">
-    <title>Projects - CV BERLIAN ARTHA ABADI</title>
-    <link rel="stylesheet" href="https://cdn.tailwindcss.com">
+    <title>Proyek - CV BERLIAN ARTHA ABADI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
 </head>
-<body class="bg-gray-100">
-    <header class="bg-blue-800 text-white p-4">
-        <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-2xl font-bold">CV BERLIAN ARTHA ABADI</h1>
-            <nav>
-                <ul class="flex space-x-4">
-                    <li><a href="index.html" class="hover:underline">Home</a></li>
-                    <li><a href="about.html" class="hover:underline">About</a></li>
-                    <li><a href="services.html" class="hover:underline">Services</a></li>
-                    <li><a href="projects.html" class="hover:underline">Projects</a></li>
-                    <li><a href="contact.html" class="hover:underline">Contact</a></li>
-                </ul>
-            </nav>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-blue-800 text-white shadow-lg">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-4">
+                    <i class="fas fa-gem text-2xl"></i>
+                    <span class="text-xl font-bold">CV BERLIAN ARTHA ABADI</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="hover:text-blue-200">Beranda</a>
+                    <a href="about.html" class="hover:text-blue-200">Tentang Kami</a>
+                    <a href="services.html" class="hover:text-blue-200">Layanan</a>
+                    <a href="projects.html" class="text-blue-200 font-semibold">Proyek</a>
+                    <a href="contact.html" class="hover:text-blue-200">Kontak</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="mobile-menu-button">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
         </div>
-    </header>
-    <main class="container mx-auto my-8">
-        <section>
-            <h2 class="text-3xl font-bold">Our Government Projects</h2>
-            <p class="mt-4">We have successfully implemented AI-driven procurement solutions for various government agencies.</p>
-            
-            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <img src="https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg" alt="Jakarta Smart City" class="w-full h-48 object-cover">
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-700 text-white py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">Proyek Kami</h1>
+            <p class="text-xl">Portofolio proyek pengadaan barang dan jasa untuk sektor pemerintah</p>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1581093450021-4a7360e9a9e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Peralatan Medis" class="w-full h-48 object-cover">
                     <div class="p-6">
-                        <h3 class="text-xl font-semibold">Jakarta Smart City Infrastructure Procurement</h3>
-                        <p class="mt-2 text-gray-600">Successfully managed $50M procurement using AI-driven vendor selection</p>
-                        <ul class="mt-4 list-disc ml-5">
-                            <li>Reduced procurement time by 30%</li>
-                            <li>Improved vendor selection accuracy by 45%</li>
-                            <li>Automated compliance checks for 100+ regulations</li>
-                        </ul>
+                        <h3 class="text-xl font-semibold mb-2">Pengadaan Peralatan Medis</h3>
+                        <p class="text-gray-600 mb-4">Pengadaan peralatan medis untuk 10 rumah sakit daerah di Jawa Barat</p>
+                        <div class="flex justify-between text-sm text-gray-500">
+                            <span><i class="fas fa-calendar-alt mr-1"></i> Januari 2023</span>
+                            <span><i class="fas fa-map-marker-alt mr-1"></i> Jawa Barat</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <img src="https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg" alt="Healthcare Equipment" class="w-full h-48 object-cover">
+                <!-- Project 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1581094271901-8022df4466f9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Bahan Bangunan" class="w-full h-48 object-cover">
                     <div class="p-6">
-                        <h3 class="text-xl font-semibold">National Healthcare Equipment Tender</h3>
-                        <p class="mt-2 text-gray-600">Reduced procurement time by 40% through automated processes</p>
-                        <ul class="mt-4 list-disc ml-5">
-                            <li>Processed 500+ vendor applications</li>
-                            <li>Identified 15% cost savings opportunities</li>
-                            <li>Ensured 100% compliance with health regulations</li>
-                        </ul>
+                        <h3 class="text-xl font-semibold mb-2">Pengadaan Bahan Bangunan</h3>
+                        <p class="text-gray-600 mb-4">Penyediaan material bangunan untuk proyek jalan tol Trans Jawa</p>
+                        <div class="flex justify-between text-sm text-gray-500">
+                            <span><i class="fas fa-calendar-alt mr-1"></i> Agustus 2022</span>
+                            <span><i class="fas fa-map-marker-alt mr-1"></i> Jawa Tengah</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <img src="https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg" alt="Education Infrastructure" class="w-full h-48 object-cover">
+                <!-- Project 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Konsultasi" class="w-full h-48 object-cover">
                     <div class="p-6">
-                        <h3 class="text-xl font-semibold">Education Infrastructure Development</h3>
-                        <p class="mt-2 text-gray-600">Managed procurement for 100+ school construction projects</p>
-                        <ul class="mt-4 list-disc ml-5">
-                            <li>Automated bid evaluation process</li>
-                            <li>Reduced paperwork by 80%</li>
-                            <li>Improved transparency in vendor selection</li>
-                        </ul>
+                        <h3 class="text-xl font-semibold mb-2">Konsultasi Pengadaan</h3>
+                        <p class="text-gray-600 mb-4">Pendampingan proses pengadaan untuk Kementerian Pendidikan</p>
+                        <div class="flex justify-between text-sm text-gray-500">
+                            <span><i class="fas fa-calendar-alt mr-1"></i> Maret 2023</span>
+                            <span><i class="fas fa-map-marker-alt mr-1"></i> Jakarta</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <img src="https://images.pexels.com/photos/164338/pexels-photo-164338.jpeg" alt="Transportation" class="w-full h-48 object-cover">
+                <!-- Project 4 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Furniture" class="w-full h-48 object-cover">
                     <div class="p-6">
-                        <h3 class="text-xl font-semibold">Public Transportation Upgrade</h3>
-                        <p class="mt-2 text-gray-600">Procurement of 200+ electric buses for city transportation</p>
-                        <ul class="mt-4 list-disc ml-5">
-                            <li>AI-powered vendor capability assessment</li>
-                            <li>Real-time price benchmarking</li>
-                            <li>Automated contract management</li>
-                        </ul>
+                        <h3 class="text-xl font-semibold mb-2">Pengadaan Furniture Kantor</h3>
+                        <p class="text-gray-600 mb-4">Penyediaan perabot kantor untuk 5 kantor pemerintah daerah</p>
+                        <div class="flex justify-between text-sm text-gray-500">
+                            <span><i class="fas fa-calendar-alt mr-1"></i> November 2022</span>
+                            <span><i class="fas fa-map-marker-alt mr-1"></i> Jawa Timur</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="IT Equipment" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Pengadaan Peralatan IT</h3>
+                        <p class="text-gray-600 mb-4">Penyediaan komputer dan perangkat pendukung untuk sekolah-sekolah</p>
+                        <div class="flex justify-between text-sm text-gray-500">
+                            <span><i class="fas fa-calendar-alt mr-1"></i> Juli 2022</span>
+                            <span><i class="fas fa-map-marker-alt mr-1"></i> Bali</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Workshop" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Pelatihan Pengadaan</h3>
+                        <p class="text-gray-600 mb-4">Workshop pengadaan barang/jasa untuk 50 ASN pemerintah</p>
+                        <div class="flex justify-between text-sm text-gray-500">
+                            <span><i class="fas fa-calendar-alt mr-1"></i> September 2022</span>
+                            <span><i class="fas fa-map-marker-alt mr-1"></i> Yogyakarta</span>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <section class="mt-12 bg-blue-50 p-8 rounded-lg">
-                <h3 class="text-2xl font-semibold">Client Testimonials</h3>
-                <div class="mt-6">
-                    <blockquote class="italic text-gray-700">
-                        "CV Berlian Artha Abadi's AI platform saved us 200+ man-hours per tender process while improving compliance. Their solutions transformed our procurement operations."
-                    </blockquote>
-                    <p class="mt-4 font-medium">- Ministry of Public Works Representative</p>
+    <!-- Project Stats -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-12">Pencapaian Kami</h2>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="text-4xl font-bold text-blue-600 mb-2">50+</div>
+                    <div class="text-gray-600">Proyek Selesai</div>
                 </div>
-            </section>
-        </section>
-    </main>
-    <footer class="bg-blue-800 text-white p-4">
-        <div class="container mx-auto text-center">
-            <p>© 2024 CV Berlian Artha Abadi</p>
-            <p>Jl. Budi Utama No.78, Jakarta | +62 21 1234567 | contact@berlian-arthabadi.com</p>
+                <div>
+                    <div class="text-4xl font-bold text-blue-600 mb-2">25+</div>
+                    <div class="text-gray-600">Instansi Mitra</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-bold text-blue-600 mb-2">10+</div>
+                    <div class="text-gray-600">Provinsi</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-bold text-blue-600 mb-2">100%</div>
+                    <div class="text-gray-600">Kepuasan Klien</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <i class="fas fa-gem text-2xl text-blue-400"></i>
+                        <span class="text-xl font-bold">CV BERLIAN ARTHA ABADI</span>
+                    </div>
+                    <p class="text-gray-400">Perusahaan pengadaan barang dan jasa profesional untuk sektor pemerintah dengan standar kualitas tinggi.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Tautan Cepat</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white">Beranda</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white">Tentang Kami</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white">Layanan</a></li>
+                        <li><a href="projects.html" class="text-gray-400 hover:text-white">Proyek</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white">Kontak</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Kontak Kami</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            <span>Jl. Raya Perkantoran No. 123, Jakarta</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-2"></i>
+                            <span>(021) 12345678</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <span>info@berlianarthaabadi.com</span>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Jam Operasional</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex justify-between">
+                            <span>Senin - Jumat</span>
+                            <span>08:00 - 17:00</span>
+                        </li>
+                        <li class="flex justify-between">
+                            <span>Sabtu</span>
+                            <span>08:00 - 14:00</span>
+                        </li>
+                        <li class="flex justify-between">
+                            <span>Minggu</span>
+                            <span>Tutup</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 CV BERLIAN ARTHA ABADI. All rights reserved.</p>
+            </div>
         </div>
     </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.querySelector('.mobile-menu-button');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
 </body>
 </html>
